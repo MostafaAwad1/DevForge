@@ -1,0 +1,17 @@
+@font-face {
+    font-family:Poppins;
+    src: url("./assets/fonts/Poppins-MediumItalic.ttf");
+}
+@theme {
+    --font-poppins:Poppins,"sans-serif"
+}
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;  
+}
+
